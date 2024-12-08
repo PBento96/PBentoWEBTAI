@@ -1,0 +1,27 @@
+{
+	"id": 9,
+	"title": "Article 9",
+	"content": "This is the content of article 9",
+	"author": "John Doe",
+	"date": "2016-01-09",
+	"category": "Technology",
+	"featured": false,
+	"images": [
+		{
+			"src": "image25.jpg",
+			"caption": "Image 25",
+			"featured": true
+		},
+		{
+			"src": "image26.jpg",
+			"caption": "Image 26",
+			"featured": false
+		},
+		{
+			"src": "image27.jpg",
+			"caption": "Image 27",
+			"featured": false
+		}
+	],
+	"url": "ID=9-article-9"
+}

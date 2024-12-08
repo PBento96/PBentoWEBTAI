@@ -1,0 +1,27 @@
+{
+	"id": 6,
+	"title": "Article 6",
+	"content": "This is the content of article 6",
+	"author": "John Doe",
+	"date": "2016-01-06",
+	"category": "Technology",
+	"featured": false,
+	"images": [
+		{
+			"src": "image16.jpg",
+			"caption": "Image 16",
+			"featured": true
+		},
+		{
+			"src": "image17.jpg",
+			"caption": "Image 17",
+			"featured": false
+		},
+		{
+			"src": "image18.jpg",
+			"caption": "Image 18",
+			"featured": false
+		}
+	],
+	"url": "ID=6-article-6"
+}

@@ -1,0 +1,27 @@
+{
+	"id" : 1,
+	"title" : "Article 1",
+	"content" : "This is the content of article 1",
+	"author" : "John Doe",
+	"date" : "2016-01-01",
+	"category" : "Technology",
+	"featured" : true,
+	"images" : [
+		{
+			"src" : "image1.jpg",
+			"caption" : "Image 1",
+			"featured" : true
+		},
+		{
+			"src" : "image2.jpg",
+			"caption" : "Image 2",
+			"featured" : false
+		},
+		{
+			"src" : "image3.jpg",
+			"caption" : "Image 3",
+			"featured" : false
+		}
+	],
+	"url" : "ID=1-article-1"
+}
