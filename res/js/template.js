@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
 			});
 		if (placeholder === contentDiv) {
 			loadFeaturedArticle();
-            loadRecentArticles();
+			loadRecentArticles();
 		}
 	}
 
@@ -59,6 +59,41 @@ document.addEventListener("DOMContentLoaded", function () {
 				button.classList.remove("active");
 			}
 		});
+	}
+
+	function filterArticlesByCategory(category) {
+		fetch("res/data/articles.json")
+			.then((response) => response.json())
+			.then((articles) => {
+				const filteredArticles = articles.filter(
+					(article) => article.category.toLowerCase() === category
+				);
+				const categoryCard = document.getElementById("category-card");
+				const contentDiv = document.querySelector(".content");
+				contentDiv.innerHTML = "";
+
+				filteredArticles.forEach((article) => {
+					const articleImage =
+						article.images.find((image) => image.featured) ||
+						article.images[0];
+
+					const newCard = categoryCard.cloneNode(true);
+					newCard.querySelector(
+						"#category-img"
+					).src = `res/img/articles/${articleImage.src}`;
+					newCard.querySelector("#category-img").alt =
+						articleImage.caption;
+					newCard.querySelector("#category-title").textContent =
+						article.title;
+					newCard.querySelector("#category-byline").textContent =
+						article.author;
+					newCard.querySelector("#category-text").textContent =
+						article.content.substring(0, 100) + "...";
+
+					contentDiv.appendChild(newCard);
+				});
+			})
+			.catch((error) => console.error("Error loading articles:", error));
 	}
 
 	window.addEventListener("popstate", function (event) {
@@ -83,7 +118,25 @@ document.addEventListener("DOMContentLoaded", function () {
 		) {
 			event.preventDefault();
 			const newPath = event.target.getAttribute("data-url");
-			loadContent(newPath, contentDiv, true);
+			if (
+				newPath === "categories/cinema" ||
+				newPath === "categories/tv" ||
+				newPath === "categories/music"
+			) {
+				loadContent("categories", contentDiv, true).then(() => {
+					const category = newPath.split("/")[1];
+					filterArticlesByCategory(category);
+				});
+			} else {
+				loadContent(newPath, contentDiv, true);
+			}
+		}
+	});
+
+	footerDiv.addEventListener("click", function (event) {
+		if (event.target.closest(".footer-link")) {
+			event.preventDefault();
+			loadContent("contact", contentDiv, true);
 		}
 	});
 
@@ -155,7 +208,6 @@ document.addEventListener("DOMContentLoaded", function () {
 					recentTitle.textContent = article.title;
 					recentByline.textContent = article.author;
 
-					// Clone the recent card for the next article
 					if (index < recentArticles.length - 1) {
 						const newCard = recentCard.cloneNode(true);
 						recentCard.parentNode.appendChild(newCard);

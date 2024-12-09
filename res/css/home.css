@@ -30,6 +30,12 @@
 	justify-content: space-between;
 }
 
+.timeline img {
+	max-height: 20vh;
+	width: auto;
+	object-fit: cover;
+}
+
 .featured h1,
 .timeline h1 {
 	font-weight: bold;

@@ -1,7 +1,7 @@
 [
 	{
 		"id": 1,
-		"title": "Article 1",
+		"title": "Cinema consectetur adipiscing elit",
 		"content": "\tLorem ipsum dolor sit amet, consectetur adipiscing elit. Cras finibus, purus ac tempus iaculis, lectus velit faucibus dolor, eu ornare metus magna quis est. Vivamus quis rhoncus mauris. Sed aliquet ultricies tellus, ut rhoncus orci. Vestibulum auctor, diam sit amet dapibus bibendum, erat est viverra dui, ut iaculis urna ligula a eros. Aenean aliquet vestibulum nulla vel volutpat. In posuere consectetur lacus sit amet suscipit. Pellentesque et gravida tellus. Sed commodo sodales augue, non malesuada magna porttitor vel. Vestibulum sit amet aliquam velit. Nullam ac commodo enim. Praesent bibendum lorem ac nulla facilisis lacinia. Cras volutpat, nisl et sagittis iaculis, arcu tortor pharetra ex, quis scelerisque tellus nulla et sapien. Morbi quis venenatis turpis, a sodales orci. Duis nec pharetra orci.\n\tInteger sagittis dui vitae neque egestas volutpat. Aliquam a libero ac neque porta sollicitudin vitae vel eros. Suspendisse nec risus urna. Mauris vel imperdiet ex, at fermentum dolor. Cras imperdiet urna eget rhoncus vulputate. Aliquam auctor, augue vitae tristique efficitur, eros mi ornare turpis, eu rutrum ex neque scelerisque risus. Nulla interdum porttitor mi, non iaculis tortor feugiat nec. Nulla vel dictum dui. Nunc sed tempor tortor, at molestie eros. Maecenas pulvinar leo vel interdum pretium. Suspendisse venenatis quis purus luctus malesuada. Pellentesque quis nunc sapien. Praesent magna nunc, sodales a libero eu, fringilla faucibus augue.",
 		"author": "John Doe",
 		"date": "2016-01-01",
@@ -12,32 +12,37 @@
 				"src": "art1/1.jpg",
 				"caption": "Image 1",
 				"featured": true
+			},
+			{
+				"src": "art1/2.jpg",
+				"caption": "Image 2",
+				"featured": false
+			},
+			{
+				"src": "art1/3.jpg",
+				"caption": "Image 3",
+				"featured": false
 			}
 		],
 		"url": "ID=1-article-1"
 	},
 	{
 		"id": 2,
-		"title": "Article 2",
-		"content": "This is the content of article 2",
+		"title": "TV ut urna vitae lacinia",
+		"content": "\tPellentesque gravida ut urna vitae lacinia. In eget blandit orci. Donec non ullamcorper nisl. Etiam id mi risus. Praesent at nunc quis dolor ultricies lobortis. Fusce non aliquam metus, ac vulputate metus. Integer lobortis ante a sollicitudin consectetur. Duis non bibendum nisl. Donec non magna finibus, tempus lectus in, hendrerit quam. Mauris eu tincidunt sem. Praesent facilisis neque placerat ex tincidunt iaculis. Nullam non turpis vel ante aliquam molestie. Mauris odio urna, sagittis at sapien non, cursus egestas magna. Morbi nec odio at libero molestie ultrices et vel lacus.\n\tMorbi sed elementum ligula. Praesent ac nibh efficitur, lobortis velit vitae, placerat purus. Nullam et eleifend tortor. Quisque condimentum eros in nibh faucibus, quis blandit turpis ultricies. Duis dolor nunc, posuere in eros eu, lobortis feugiat sem. Ut tempus ornare nunc aliquam euismod. Pellentesque laoreet, eros sit amet hendrerit vestibulum, justo nunc porttitor arcu, eu cursus libero neque in magna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam ullamcorper malesuada nisi, quis tristique urna sagittis quis. Suspendisse vel lectus metus. Aliquam dignissim eget lacus sit amet ullamcorper. Aenean venenatis vitae felis a viverra. Vivamus vestibulum risus in hendrerit porttitor.",
 		"author": "Jane Doe",
 		"date": "2016-01-02",
 		"category": "TV",
 		"featured": false,
 		"images": [
 			{
-				"src": "image4.jpg",
-				"caption": "Image 4",
+				"src": "art2/1.jpg",
+				"caption": "Image 1",
 				"featured": true
 			},
 			{
-				"src": "image5.jpg",
-				"caption": "Image 5",
-				"featured": false
-			},
-			{
-				"src": "image6.jpg",
-				"caption": "Image 6",
+				"src": "art2/2.jpg",
+				"caption": "Image 2",
 				"featured": false
 			}
 		],
@@ -46,25 +51,20 @@
 	{
 		"id": 3,
 		"title": "Article 3",
-		"content": "This is the content of article 3",
+		"content": "\tPellentesque finibus sit amet ante vel feugiat. Integer ultrices, nibh ut accumsan consequat, eros lacus semper justo, sed scelerisque nulla nisi ut libero. Phasellus rhoncus erat quis velit aliquet consectetur. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam iaculis pulvinar luctus. Vivamus laoreet rhoncus vestibulum. Proin leo tortor, ullamcorper nec convallis non, blandit laoreet felis. Curabitur suscipit rutrum mauris, id fermentum elit aliquet eget. Praesent ac sollicitudin ante. Sed commodo, dolor vitae congue placerat, ex neque suscipit mauris, vitae consectetur nunc ipsum quis arcu. Nulla mi mi, venenatis vel diam eu, volutpat aliquet lorem. Nulla rutrum dolor quam, sed vestibulum nibh rutrum eu. Donec pellentesque elit ultrices ex placerat tincidunt.\t\nNunc vel feugiat diam, suscipit fringilla magna. Phasellus nisi eros, congue eget suscipit ut, blandit pulvinar nunc. Duis porttitor velit id dolor auctor eleifend. Nullam ante augue, semper ut est sit amet, imperdiet elementum mi. Nulla facilisi. Phasellus cursus turpis orci, non vehicula lorem congue at. Integer efficitur lorem et libero tempus, vitae interdum erat facilisis. Nullam euismod facilisis orci, ac mollis nisi fringilla eget.",
 		"author": "John Doe",
 		"date": "2016-01-03",
 		"category": "Cinema",
 		"featured": false,
 		"images": [
 			{
-				"src": "image7.jpg",
-				"caption": "Image 7",
+				"src": "art3/1.jpg",
+				"caption": "Image 1",
 				"featured": true
 			},
 			{
-				"src": "image8.jpg",
-				"caption": "Image 8",
-				"featured": false
-			},
-			{
-				"src": "image9.jpg",
-				"caption": "Image 9",
+				"src": "art3/2.jpg",
+				"caption": "Image 2",
 				"featured": false
 			}
 		],
@@ -73,25 +73,20 @@
 	{
 		"id": 4,
 		"title": "Article 4",
-		"content": "This is the content of article 4",
+		"content": "\tEtiam elit nunc, tincidunt quis tempus vel, consequat ut tortor. Vestibulum suscipit suscipit consequat. Sed non elit rhoncus, sodales nunc ut, tristique tellus. Aliquam vitae sodales est. Nullam commodo rutrum leo, ut bibendum arcu tempor ut. Donec sit amet ex sem. Pellentesque varius faucibus est, sed laoreet odio sodales vel. Sed bibendum massa volutpat sem molestie, sit amet rhoncus sapien maximus. Aenean ac fermentum dolor. Nunc pulvinar nulla sem, a lobortis nisl dapibus nec. Pellentesque ut enim lobortis, rhoncus mi elementum, dignissim libero. Vestibulum ac quam sit amet felis accumsan convallis.\n\tAliquam non velit vel ligula fringilla sollicitudin eu et metus. Sed rhoncus mollis eros, ac porta ante tristique eget. Praesent tellus erat, aliquam tristique nulla ut, blandit rutrum lacus. Ut ornare, nunc et posuere maximus, enim lorem venenatis leo, at lobortis urna nisl nec velit. Quisque ut dui velit. Integer sit amet tortor consequat, tempor orci nec, sollicitudin leo. Nullam malesuada dui a augue porta semper. Vestibulum justo augue, ultrices sed urna eget, suscipit consequat diam. Mauris vel suscipit neque. Mauris eu rhoncus erat. Donec elementum nulla a placerat malesuada.",
 		"author": "John Doe",
 		"date": "2016-01-04",
-		"category": "Música",
+		"category": "Music",
 		"featured": false,
 		"images": [
 			{
-				"src": "image10.jpg",
-				"caption": "Image 10",
+				"src": "art4/1.jpg",
+				"caption": "Image 1",
 				"featured": true
 			},
 			{
-				"src": "image11.jpg",
-				"caption": "Image 11",
-				"featured": false
-			},
-			{
-				"src": "image12.jpg",
-				"caption": "Image 12",
+				"src": "art4/2.jpg",
+				"caption": "Image 2",
 				"featured": false
 			}
 		],
@@ -100,25 +95,20 @@
 	{
 		"id": 5,
 		"title": "Article 5",
-		"content": "This is the content of article 5",
+		"content": "\tQuisque congue, elit sed dignissim faucibus, nisi quam fringilla mi, nec lobortis justo dui ac odio. Aliquam at pretium augue. Aenean maximus condimentum fringilla. Nunc in dolor quam. In hac habitasse platea dictumst. Vestibulum vestibulum venenatis nisl. Sed ac eros luctus, tincidunt velit vel, faucibus nibh. Curabitur mollis tincidunt quam in consequat. Curabitur gravida sapien quis libero efficitur pretium.\n\tUt sit amet mollis ipsum. In ac mi sed nibh lobortis imperdiet. Quisque in urna sollicitudin, ornare est quis, elementum elit. Sed finibus tristique mauris. Etiam venenatis pretium arcu, eget lacinia ex molestie eu. Nullam porta, lacus ac ullamcorper cursus, ex velit pulvinar nulla, vitae tempus lacus tortor ut libero. Fusce pharetra, nibh finibus porttitor pharetra, sem justo placerat risus, sed fermentum lorem lacus eu ipsum. Nulla finibus neque id nisl feugiat, et faucibus lectus fringilla. Nunc tempor justo vulputate luctus malesuada. Curabitur leo odio, scelerisque id ipsum vel, laoreet pretium ligula. Vivamus rutrum venenatis magna quis scelerisque.",
 		"author": "John Doe",
 		"date": "2016-01-05",
 		"category": "TV",
 		"featured": false,
 		"images": [
 			{
-				"src": "image13.jpg",
-				"caption": "Image 13",
+				"src": "art5/1.jpg",
+				"caption": "Image 1",
 				"featured": true
 			},
 			{
-				"src": "image14.jpg",
-				"caption": "Image 14",
-				"featured": false
-			},
-			{
-				"src": "image15.jpg",
-				"caption": "Image 15",
+				"src": "art5/2.jpg",
+				"caption": "Image 2",
 				"featured": false
 			}
 		],
@@ -127,25 +117,20 @@
 	{
 		"id": 6,
 		"title": "Article 6",
-		"content": "This is the content of article 6",
+		"content": "\tCurabitur quis leo aliquet, rutrum justo vitae, eleifend mi. Nunc porta sapien at tortor tincidunt tempor. Etiam tempus, leo sit amet mollis lacinia, neque lectus tincidunt ipsum, eget dictum elit lectus in elit. Donec rhoncus dui nisi, eu consectetur metus tristique sed. Ut nulla nisi, lobortis non auctor quis, pretium nec tellus. Donec suscipit, sapien non semper vestibulum, est diam interdum odio, tincidunt lacinia dui justo in dolor. Quisque purus quam, sagittis nec sem sit amet, pretium posuere tortor.\n\tNunc eros purus, finibus id dictum non, efficitur id purus. Donec sit amet dui ornare, porttitor diam et, fringilla metus. Mauris ultricies eros augue, vitae volutpat magna iaculis sit amet. Pellentesque ut tincidunt arcu. Vivamus quis ex metus. Morbi ut finibus libero, non imperdiet erat. Curabitur mollis lectus lacus, vitae sagittis risus porta et. In dictum est eget justo aliquam, sit amet malesuada ligula facilisis. Aliquam non lorem vehicula massa gravida posuere. Aliquam a rutrum eros.",
 		"author": "John Doe",
 		"date": "2016-01-06",
-		"category": "Música",
+		"category": "Music",
 		"featured": false,
 		"images": [
 			{
-				"src": "image16.jpg",
-				"caption": "Image 16",
+				"src": "art6/1.jpg",
+				"caption": "Image 1",
 				"featured": true
 			},
 			{
-				"src": "image17.jpg",
-				"caption": "Image 17",
-				"featured": false
-			},
-			{
-				"src": "image18.jpg",
-				"caption": "Image 18",
+				"src": "art6/2.jpg",
+				"caption": "Image 2",
 				"featured": false
 			}
 		],
@@ -154,25 +139,20 @@
 	{
 		"id": 7,
 		"title": "Article 7",
-		"content": "This is the content of article 7",
+		"content": "\tMaecenas arcu nisl, viverra eu maximus at, iaculis sed metus. Cras mollis dapibus varius. Nam sapien dui, ultricies et risus in, lobortis auctor erat. Phasellus vulputate dui sed ante consequat, vitae congue metus hendrerit. Vestibulum mollis magna nec felis tristique, et porttitor nulla blandit. Nam mattis nibh eget diam congue hendrerit. Integer sagittis interdum nulla nec vestibulum. Sed vehicula ante quis urna hendrerit, sit amet placerat massa viverra. Donec quis consequat metus. Vivamus malesuada mi eget tellus euismod, a maximus sem bibendum. Pellentesque elementum ullamcorper condimentum.\n\tNam dolor erat, suscipit non nibh id, condimentum blandit elit. Vestibulum rhoncus pretium dolor, vitae ullamcorper nunc. Vestibulum vulputate porta dui vel mattis. Fusce accumsan orci sed dui faucibus, eget mollis tellus tempor. Aliquam lectus mauris, accumsan id lacus sed, luctus condimentum odio. Aenean vel sagittis dolor, et pharetra ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla metus sem, tempor nec imperdiet sed, mattis vel enim. Vestibulum faucibus eros eu metus placerat vehicula. Etiam in cursus tellus.",
 		"author": "John Doe",
 		"date": "2016-01-07",
-		"category": "Música",
+		"category": "Music",
 		"featured": false,
 		"images": [
 			{
-				"src": "image19.jpg",
-				"caption": "Image 19",
+				"src": "art7/1.jpg",
+				"caption": "Image 1",
 				"featured": true
 			},
 			{
-				"src": "image20.jpg",
-				"caption": "Image 20",
-				"featured": false
-			},
-			{
-				"src": "image21.jpg",
-				"caption": "Image 21",
+				"src": "art7/2.jpg",
+				"caption": "Image 2",
 				"featured": false
 			}
 		],
@@ -181,25 +161,20 @@
 	{
 		"id": 8,
 		"title": "Article 8",
-		"content": "This is the content of article 8",
+		"content": "\tAliquam vulputate consectetur orci quis lobortis. Praesent faucibus in est nec convallis. Fusce viverra sollicitudin felis, et consequat mi. Cras mollis metus sed quam laoreet tristique. Mauris nec egestas nisi, non pretium nulla. Nam luctus consequat turpis, et consectetur lacus pharetra et. Donec efficitur odio at erat aliquet, id tincidunt sapien varius. Integer varius, justo in viverra pellentesque, elit neque hendrerit neque, non fermentum tortor lectus nec nulla. Sed vel ligula in sem condimentum varius. Vestibulum laoreet odio ut semper maximus. Praesent quam risus, lobortis efficitur elementum nec, rhoncus nec mi. Praesent sagittis tortor urna. Quisque velit justo, lacinia a tincidunt nec, facilisis posuere turpis. Ut cursus lorem neque, id molestie leo ultricies sit amet.\n\tAenean non condimentum metus, posuere porttitor mi. Maecenas molestie elementum dolor, et posuere mauris sodales dapibus. Cras pharetra tempus nulla, et dapibus mi feugiat sit amet. Suspendisse rutrum posuere mi in consectetur. Cras fringilla felis nec dui efficitur ultrices. Ut est neque, molestie ut luctus vitae, semper a nulla. Nulla augue nisl, pharetra at iaculis in, vestibulum non nibh. Vivamus dapibus, sem sit amet ultrices pretium, elit nisl malesuada tellus, et gravida ex elit id lorem. Aliquam molestie velit sed purus vestibulum varius. Nam id nunc ac lectus varius iaculis. Morbi tempus commodo diam, vitae aliquet tellus egestas sed. Nunc at enim imperdiet, sagittis tellus vel, interdum dolor. Quisque pulvinar nulla sit amet ante laoreet, ac faucibus sem viverra.",
 		"author": "John Doe",
 		"date": "2016-01-08",
-		"category": "Música",
+		"category": "Music",
 		"featured": false,
 		"images": [
 			{
-				"src": "image22.jpg",
-				"caption": "Image 22",
+				"src": "art8/1.jpg",
+				"caption": "Image 1",
 				"featured": true
 			},
 			{
-				"src": "image23.jpg",
-				"caption": "Image 23",
-				"featured": false
-			},
-			{
-				"src": "image24.jpg",
-				"caption": "Image 24",
+				"src": "art8/2.jpg",
+				"caption": "Image 2",
 				"featured": false
 			}
 		],
@@ -208,25 +183,20 @@
 	{
 		"id": 9,
 		"title": "Article 9",
-		"content": "This is the content of article 9",
+		"content": "\tNulla facilisi. Etiam facilisis dictum mattis. Nulla facilisi. Integer a tortor tellus. Fusce cursus leo at orci sollicitudin cursus. Proin dapibus auctor urna nec laoreet. Morbi condimentum et libero nec imperdiet. Nullam faucibus cursus ante, sit amet gravida tellus luctus nec. Nullam commodo pharetra vestibulum. Morbi egestas maximus lorem, ut suscipit orci tincidunt eget. Ut eu nisl id urna suscipit sodales. Interdum et malesuada fames ac ante ipsum primis in faucibus.\n\tSed ac massa ac enim laoreet feugiat. Morbi sit amet efficitur diam. Ut ac tellus vel nunc aliquet lobortis in vitae sem. Praesent et dignissim purus. Proin semper sem ipsum, gravida ultricies odio vestibulum vel. Praesent convallis, arcu vitae mollis lobortis, lacus ex condimentum elit, a placerat tortor erat blandit lectus. Nulla facilisi. Cras eget lectus iaculis, vulputate nulla non, porta ligula. Nam ac diam elit. Morbi tellus purus, venenatis sit amet nisl eget, efficitur consectetur mauris. Proin dolor nibh, volutpat eu venenatis vitae, vulputate et urna. Praesent suscipit luctus magna, eget pulvinar orci pretium euismod. In venenatis tellus ac diam rhoncus, at ultrices leo volutpat. Aliquam at tortor est.",
 		"author": "John Doe",
 		"date": "2016-01-09",
 		"category": "Cinema",
 		"featured": false,
 		"images": [
 			{
-				"src": "image25.jpg",
-				"caption": "Image 25",
+				"src": "art9/1.jpg",
+				"caption": "Image 1",
 				"featured": true
 			},
 			{
-				"src": "image26.jpg",
-				"caption": "Image 26",
-				"featured": false
-			},
-			{
-				"src": "image27.jpg",
-				"caption": "Image 27",
+				"src": "art9/2.jpg",
+				"caption": "Image 2",
 				"featured": false
 			}
 		],
@@ -235,25 +205,25 @@
 	{
 		"id": 10,
 		"title": "Article 10",
-		"content": "This is the content of article 10",
+		"content": "\tUt accumsan arcu a diam ultricies scelerisque. Proin facilisis luctus placerat. Sed vitae consectetur elit. Aliquam mauris odio, dapibus eget ex vel, iaculis iaculis mi. Praesent accumsan rutrum nulla ut suscipit. Integer metus urna, accumsan vel tincidunt at, vestibulum quis nibh. Mauris leo diam, porttitor eget vestibulum nec, porttitor quis purus.\n\tCras cursus, ipsum nec commodo cursus, velit libero rutrum sapien, condimentum auctor quam lorem eget ligula. Mauris egestas felis dolor, in facilisis erat ullamcorper a. Fusce purus nibh, mollis vitae suscipit sed, vulputate a elit. Mauris mattis, turpis nec faucibus viverra, arcu dui lobortis nisi, eget aliquet lorem purus non sapien. Vestibulum et nibh tempus, lobortis tellus id, rutrum felis. Donec vehicula nunc sed dui egestas consectetur. Vivamus eu urna sem. Praesent blandit erat a nibh ullamcorper, vitae ullamcorper metus sodales. Vivamus at cursus est. Phasellus quis sodales ex, at blandit erat. Etiam sollicitudin erat ac mollis semper. Quisque est purus, accumsan eget elit eu, maximus consectetur ex.",
 		"author": "John Doe",
 		"date": "2016-01-10",
 		"category": "TV",
 		"featured": false,
 		"images": [
 			{
-				"src": "image28.jpg",
-				"caption": "Image 28",
+				"src": "art10/1.jpg",
+				"caption": "Image 1",
 				"featured": true
 			},
 			{
-				"src": "image29.jpg",
-				"caption": "Image 29",
+				"src": "art10/2.jpg",
+				"caption": "Image 2",
 				"featured": false
 			},
 			{
-				"src": "image30.jpg",
-				"caption": "Image 30",
+				"src": "art10/3.jpg",
+				"caption": "Image 3",
 				"featured": false
 			}
 		],
