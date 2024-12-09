@@ -1,0 +1,262 @@
+[
+	{
+		"id": 1,
+		"title": "Article 1",
+		"content": "\tLorem ipsum dolor sit amet, consectetur adipiscing elit. Cras finibus, purus ac tempus iaculis, lectus velit faucibus dolor, eu ornare metus magna quis est. Vivamus quis rhoncus mauris. Sed aliquet ultricies tellus, ut rhoncus orci. Vestibulum auctor, diam sit amet dapibus bibendum, erat est viverra dui, ut iaculis urna ligula a eros. Aenean aliquet vestibulum nulla vel volutpat. In posuere consectetur lacus sit amet suscipit. Pellentesque et gravida tellus. Sed commodo sodales augue, non malesuada magna porttitor vel. Vestibulum sit amet aliquam velit. Nullam ac commodo enim. Praesent bibendum lorem ac nulla facilisis lacinia. Cras volutpat, nisl et sagittis iaculis, arcu tortor pharetra ex, quis scelerisque tellus nulla et sapien. Morbi quis venenatis turpis, a sodales orci. Duis nec pharetra orci.\n\tInteger sagittis dui vitae neque egestas volutpat. Aliquam a libero ac neque porta sollicitudin vitae vel eros. Suspendisse nec risus urna. Mauris vel imperdiet ex, at fermentum dolor. Cras imperdiet urna eget rhoncus vulputate. Aliquam auctor, augue vitae tristique efficitur, eros mi ornare turpis, eu rutrum ex neque scelerisque risus. Nulla interdum porttitor mi, non iaculis tortor feugiat nec. Nulla vel dictum dui. Nunc sed tempor tortor, at molestie eros. Maecenas pulvinar leo vel interdum pretium. Suspendisse venenatis quis purus luctus malesuada. Pellentesque quis nunc sapien. Praesent magna nunc, sodales a libero eu, fringilla faucibus augue.",
+		"author": "John Doe",
+		"date": "2016-01-01",
+		"category": "Cinema",
+		"featured": true,
+		"images": [
+			{
+				"src": "art1/1.jpg",
+				"caption": "Image 1",
+				"featured": true
+			}
+		],
+		"url": "ID=1-article-1"
+	},
+	{
+		"id": 2,
+		"title": "Article 2",
+		"content": "This is the content of article 2",
+		"author": "Jane Doe",
+		"date": "2016-01-02",
+		"category": "TV",
+		"featured": false,
+		"images": [
+			{
+				"src": "image4.jpg",
+				"caption": "Image 4",
+				"featured": true
+			},
+			{
+				"src": "image5.jpg",
+				"caption": "Image 5",
+				"featured": false
+			},
+			{
+				"src": "image6.jpg",
+				"caption": "Image 6",
+				"featured": false
+			}
+		],
+		"url": "ID=2-article-2"
+	},
+	{
+		"id": 3,
+		"title": "Article 3",
+		"content": "This is the content of article 3",
+		"author": "John Doe",
+		"date": "2016-01-03",
+		"category": "Cinema",
+		"featured": false,
+		"images": [
+			{
+				"src": "image7.jpg",
+				"caption": "Image 7",
+				"featured": true
+			},
+			{
+				"src": "image8.jpg",
+				"caption": "Image 8",
+				"featured": false
+			},
+			{
+				"src": "image9.jpg",
+				"caption": "Image 9",
+				"featured": false
+			}
+		],
+		"url": "ID=3-article-3"
+	},
+	{
+		"id": 4,
+		"title": "Article 4",
+		"content": "This is the content of article 4",
+		"author": "John Doe",
+		"date": "2016-01-04",
+		"category": "Música",
+		"featured": false,
+		"images": [
+			{
+				"src": "image10.jpg",
+				"caption": "Image 10",
+				"featured": true
+			},
+			{
+				"src": "image11.jpg",
+				"caption": "Image 11",
+				"featured": false
+			},
+			{
+				"src": "image12.jpg",
+				"caption": "Image 12",
+				"featured": false
+			}
+		],
+		"url": "ID=4-article-4"
+	},
+	{
+		"id": 5,
+		"title": "Article 5",
+		"content": "This is the content of article 5",
+		"author": "John Doe",
+		"date": "2016-01-05",
+		"category": "TV",
+		"featured": false,
+		"images": [
+			{
+				"src": "image13.jpg",
+				"caption": "Image 13",
+				"featured": true
+			},
+			{
+				"src": "image14.jpg",
+				"caption": "Image 14",
+				"featured": false
+			},
+			{
+				"src": "image15.jpg",
+				"caption": "Image 15",
+				"featured": false
+			}
+		],
+		"url": "ID=5-article-5"
+	},
+	{
+		"id": 6,
+		"title": "Article 6",
+		"content": "This is the content of article 6",
+		"author": "John Doe",
+		"date": "2016-01-06",
+		"category": "Música",
+		"featured": false,
+		"images": [
+			{
+				"src": "image16.jpg",
+				"caption": "Image 16",
+				"featured": true
+			},
+			{
+				"src": "image17.jpg",
+				"caption": "Image 17",
+				"featured": false
+			},
+			{
+				"src": "image18.jpg",
+				"caption": "Image 18",
+				"featured": false
+			}
+		],
+		"url": "ID=6-article-6"
+	},
+	{
+		"id": 7,
+		"title": "Article 7",
+		"content": "This is the content of article 7",
+		"author": "John Doe",
+		"date": "2016-01-07",
+		"category": "Música",
+		"featured": false,
+		"images": [
+			{
+				"src": "image19.jpg",
+				"caption": "Image 19",
+				"featured": true
+			},
+			{
+				"src": "image20.jpg",
+				"caption": "Image 20",
+				"featured": false
+			},
+			{
+				"src": "image21.jpg",
+				"caption": "Image 21",
+				"featured": false
+			}
+		],
+		"url": "ID=7-article-7"
+	},
+	{
+		"id": 8,
+		"title": "Article 8",
+		"content": "This is the content of article 8",
+		"author": "John Doe",
+		"date": "2016-01-08",
+		"category": "Música",
+		"featured": false,
+		"images": [
+			{
+				"src": "image22.jpg",
+				"caption": "Image 22",
+				"featured": true
+			},
+			{
+				"src": "image23.jpg",
+				"caption": "Image 23",
+				"featured": false
+			},
+			{
+				"src": "image24.jpg",
+				"caption": "Image 24",
+				"featured": false
+			}
+		],
+		"url": "ID=8-article-8"
+	},
+	{
+		"id": 9,
+		"title": "Article 9",
+		"content": "This is the content of article 9",
+		"author": "John Doe",
+		"date": "2016-01-09",
+		"category": "Cinema",
+		"featured": false,
+		"images": [
+			{
+				"src": "image25.jpg",
+				"caption": "Image 25",
+				"featured": true
+			},
+			{
+				"src": "image26.jpg",
+				"caption": "Image 26",
+				"featured": false
+			},
+			{
+				"src": "image27.jpg",
+				"caption": "Image 27",
+				"featured": false
+			}
+		],
+		"url": "ID=9-article-9"
+	},
+	{
+		"id": 10,
+		"title": "Article 10",
+		"content": "This is the content of article 10",
+		"author": "John Doe",
+		"date": "2016-01-10",
+		"category": "TV",
+		"featured": false,
+		"images": [
+			{
+				"src": "image28.jpg",
+				"caption": "Image 28",
+				"featured": true
+			},
+			{
+				"src": "image29.jpg",
+				"caption": "Image 29",
+				"featured": false
+			},
+			{
+				"src": "image30.jpg",
+				"caption": "Image 30",
+				"featured": false
+			}
+		],
+		"url": "ID=10-article-10"
+	}
+]

@@ -1,5 +1,41 @@
 <!-- pages/home.html -->
+<link rel="stylesheet" href="/res/css/home.css" />
 <div data-title="Home" class="wrapper">
-	<h1>Welcome to the Home Page</h1>
-	<p>This is the home page content.</p>
+	<div class="grid">
+		<div class="featured">
+			<h1>Em destaque:</h1>
+			<div id="featured-card" class="card">
+				<img id="featured-img" class="card-img-top" src="" alt="" />
+				<div class="card-body">
+					<h5 id="featured-title" class="card-title"></h5>
+					<h6
+						id="featured-byline"
+						class="card-subtitle mb-2 text-muted"
+					></h6>
+					<p id="featured-text" class="card-text"></p>
+				</div>
+			</div>
+		</div>
+		<div class="timeline">
+			<h1>Mais recentes:</h1>
+			<div class="content">
+				<div id="recent-card" class="card d-flex flex-row">
+					<img
+						id="recent-img"
+						class="card-img-left"
+						src=""
+						alt=""
+						style="width: 150px; height: auto"
+					/>
+					<div class="card-body">
+						<h5 id="recent-title" class="card-title"></h5>
+						<h6
+							id="recent-byline"
+							class="card-subtitle mb-2 text-muted"
+						></h6>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
