@@ -23,8 +23,7 @@
 				"caption": "Image 3",
 				"featured": false
 			}
-		],
-		"url": "ID=1-article-1"
+		]
 	},
 	{
 		"id": 2,
@@ -45,8 +44,7 @@
 				"caption": "Image 2",
 				"featured": false
 			}
-		],
-		"url": "ID=2-article-2"
+		]
 	},
 	{
 		"id": 3,
@@ -67,8 +65,7 @@
 				"caption": "Image 2",
 				"featured": false
 			}
-		],
-		"url": "ID=3-article-3"
+		]
 	},
 	{
 		"id": 4,
@@ -89,8 +86,7 @@
 				"caption": "Image 2",
 				"featured": false
 			}
-		],
-		"url": "ID=4-article-4"
+		]
 	},
 	{
 		"id": 5,
@@ -111,8 +107,7 @@
 				"caption": "Image 2",
 				"featured": false
 			}
-		],
-		"url": "ID=5-article-5"
+		]
 	},
 	{
 		"id": 6,
@@ -133,8 +128,7 @@
 				"caption": "Image 2",
 				"featured": false
 			}
-		],
-		"url": "ID=6-article-6"
+		]
 	},
 	{
 		"id": 7,
@@ -155,8 +149,7 @@
 				"caption": "Image 2",
 				"featured": false
 			}
-		],
-		"url": "ID=7-article-7"
+		]
 	},
 	{
 		"id": 8,
@@ -177,8 +170,7 @@
 				"caption": "Image 2",
 				"featured": false
 			}
-		],
-		"url": "ID=8-article-8"
+		]
 	},
 	{
 		"id": 9,
@@ -199,8 +191,7 @@
 				"caption": "Image 2",
 				"featured": false
 			}
-		],
-		"url": "ID=9-article-9"
+		]
 	},
 	{
 		"id": 10,
@@ -226,7 +217,6 @@
 				"caption": "Image 3",
 				"featured": false
 			}
-		],
-		"url": "ID=10-article-10"
+		]
 	}
 ]

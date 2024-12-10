@@ -1,0 +1,20 @@
+:root {
+	--primary: #581381;
+	--secondary: #f5a1e8;
+}
+
+body {
+	background-color: var(--secondary);
+	color: black;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#header-div,
+#footer-div {
+	background-color: var(--primary);
+	color: white;
+}
+
+.navbar-nav .nav-link {
+	font-size: 2rem;
+}
