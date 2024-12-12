@@ -51,9 +51,10 @@ async function postFeatured() {
 			} on ${new Date(featuredArticle.date).toLocaleDateString()}`;
 			document.getElementById("text").innerText =
 				featuredArticle.content.substring(0, 200) + "...";
-			document.getElementById(
-				"open-article"
-			).href = `article.html?id=${featuredArticle.id}`;
+			card.querySelector("#open-article").setAttribute(
+				"onclick",
+				`postArticle(${featuredArticle.id})`
+			);
 		}
 	} catch (error) {
 		console.error("Error posting featured articles:", error);
@@ -80,9 +81,10 @@ async function postNewest(count) {
 			card.querySelector("#byline").innerText = `By ${
 				article.author
 			} on ${new Date(article.date).toLocaleDateString()}`;
-			card.querySelector(
-				"#open-article"
-			).href = `article.html?id=${article.id}`;
+			card.querySelector("#open-article").setAttribute(
+				"onclick",
+				`postArticle(${article.id})`
+			);
 			newestDiv.appendChild(card);
 		}
 	} catch (error) {
@@ -110,9 +112,10 @@ async function postTopic(topic) {
 			card.querySelector("#byline").innerText = `By ${
 				article.author
 			} on ${new Date(article.date).toLocaleDateString()}`;
-			card.querySelector(
-				"#open-article"
-			).href = `article.html?id=${article.id}`;
+			card.querySelector("#open-article").setAttribute(
+				"onclick",
+				`postArticle(${article.id})`
+			);
 			newestDiv.appendChild(card);
 		}
 	} catch (error) {
@@ -120,8 +123,51 @@ async function postTopic(topic) {
 	}
 }
 
-async function postArticle(id) {}
+async function postArticle(id) {
+	try {
+		await loadComponent("pages/article", "content-div");
+		const article = await getArticle(id);
+		if (article) {
+			const carouselIndicators = document.querySelector(
+				".carousel-indicators"
+			);
+			const carouselInner = document.querySelector(".carousel-inner");
+			carouselIndicators.innerHTML = "";
+			carouselInner.innerHTML = "";
+
+			article.images.forEach((image, index) => {
+				const indicator = document.createElement("li");
+				indicator.setAttribute("data-target", "#carouselIndicators");
+				indicator.setAttribute("data-slide-to", index);
+				if (index === 0) indicator.classList.add("active");
+				carouselIndicators.appendChild(indicator);
+
+				const carouselItem = document.createElement("div");
+				carouselItem.classList.add("carousel-item");
+				if (index === 0) carouselItem.classList.add("active");
+				const img = document.createElement("img");
+				img.classList.add("d-block", "w-100");
+				img.src = `resources/img/articles/${image.src}`;
+				img.alt = image.caption;
+				carouselItem.appendChild(img);
+				carouselInner.appendChild(carouselItem);
+			});
+
+			document.getElementById("title").innerText = article.title;
+			document.getElementById(
+				"author"
+			).innerText = `By ${article.author}`;
+			document.getElementById("date").innerText = new Date(
+				article.date
+			).toLocaleDateString();
+			document.getElementById("text").innerHTML = article.content;
+		}
+	} catch (error) {
+		console.error(`Error posting article with id "${id}":`, error);
+	}
+}
 
 loadPage();
 
 window.loadPage = loadPage;
+window.postArticle = postArticle;
